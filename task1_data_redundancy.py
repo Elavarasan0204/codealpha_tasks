@@ -61,9 +61,4 @@ while True:
 
     elif choice == "2":
         break
-cursor = db.cursor()
-cursor.execute("delete")
-db.commit()
-print("data deleted")    
-
 db.close()
